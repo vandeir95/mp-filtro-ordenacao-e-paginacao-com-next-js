@@ -1,72 +1,66 @@
-Excelente — parabéns por finalizar o projeto 🎉
+Perfeito 👌 — então você quer uma **versão de apresentação para o LinkedIn/portfólio**, mais envolvente, com um tom profissional e atrativo, certo?
 
-Esse texto que você trouxe é a **descrição original do desafio**, certo?
-Se quiser, posso te ajudar a **reescrever esse conteúdo** como uma **descrição profissional do seu projeto finalizado**, para colocar no **GitHub**, **portfólio** ou **LinkedIn**, destacando **suas implementações e aprendizados**.
-
-Por exemplo, posso transformá-lo em algo como isto 👇
+Aqui vai uma versão pronta, bem estruturada para esse propósito 👇
 
 ---
 
 # 🚀 Projeto: Busca, Filtro, Ordenação e Paginação com Next.js
 
-Este projeto foi desenvolvido com o objetivo de implementar uma interface completa de listagem de pedidos, com funcionalidades de **busca textual**, **filtro de status**, **ordenação de colunas** e **paginação**, todas integradas a uma **API REST**.
-As ações são **totalmente server-side**, garantindo performance, consistência e URLs compartilháveis com os parâmetros de busca e filtro.
+Este projeto foi desenvolvido com o objetivo de criar uma aplicação moderna e performática para listagem de pedidos, integrando **busca textual**, **filtro por status**, **ordenação de colunas** e **paginação dinâmica**, tudo sincronizado com a **URL** para uma experiência de navegação fluida e compartilhável.
 
-## 🧩 Tecnologias Utilizadas
+Construído com **Next.js** e **TypeScript**, o projeto explora na prática os conceitos de **Server Components** e **Client Components**, além de aplicar boas práticas de arquitetura e consumo de APIs.
 
-* **Next.js 14** com **Server e Client Components**
+## 💻 Tecnologias e Ferramentas Utilizadas
+
+* **Next.js 14** (App Router)
 * **TypeScript**
 * **React**
-* **ShadCN/UI** para os componentes visuais
-* **Axios** para consumo da API
-* **API Codante Orders** (`https://apis.codante.io/api/orders-api/orders`)
+* **ShadCN/UI** e **TailwindCSS** (UI e estilização)
+* **Axios** (requisições HTTP)
+* **React Hook Form** e **Zod** (validação e formulários)
+* **useSearchParams** e **useRouter** (gerenciamento de estado via URL)
 
 ## ⚙️ Funcionalidades Implementadas
 
-* **Conexão com API** e exibição de dados em tabela
+* 🔗 **Integração com API REST** (Codante Orders API)
 
-  * Nome do Cliente
-  * Email do Cliente
-  * Status do Pedido
-  * Data
-  * Valor formatado em Real (R$)
+  * Exibição de nome, e-mail, status, data e valor do pedido (formatado em Real).
 
-* **Busca textual** pelo nome do cliente
+* 🔍 **Busca textual** por nome do cliente
 
-  * Implementação 100% server-side
-  * Parâmetros refletidos na URL
+  * Totalmente server-side e refletida na URL.
 
-* **Filtro por status** (`pending`, `completed`)
+* 🧭 **Filtro de status** (`pending`, `completed`)
 
-  * Filtro server-side
-  * Atualização dinâmica da URL
+  * Filtro dinâmico e sincronizado com a URL.
 
-* **Ordenação** por data e valor do pedido
+* 📅 **Ordenação por data e valor**
 
-  * Ícones visuais indicam o tipo de ordenação ativa
-  * Estado refletido na URL
+  * Ícones dinâmicos indicam a direção da ordenação.
 
-* **Paginação funcional** com base nos links da API
+* 🔄 **Paginação funcional**
 
-  * Botões “Próximo” e “Anterior” desativam automaticamente
-  * Estado sincronizado com a URL
+  * Navegação entre páginas com botões “Anterior” e “Próximo” automáticos.
 
-* **Controle entre Server e Client Components** para melhor desempenho
+* ⚙️ **Separação entre Server e Client Components**
 
-## 💡 Extras
+  * Melhor desempenho e carregamento otimizado.
 
-* Implementado `useDebounce` na busca para otimizar requisições.
-* Organização limpa de componentes e rotas.
+## 💡 Destaques Técnicos
 
-## 🎯 Aprendizados
+* Implementação de **estado persistente via query parameters**, permitindo compartilhamento direto da página com filtros aplicados.
+* Uso estratégico de **Server Components** para buscar dados diretamente do servidor.
+* **Responsividade** e **UI limpa**, com foco em usabilidade e clareza na navegação.
 
-Durante o desenvolvimento, aprimorei conceitos de:
+## 📈 Aprendizados e Resultados
 
-* Gerenciamento de **estado pela URL**
-* Diferença prática entre **Server e Client Components**
-* **Paginação e ordenação** com parâmetros dinâmicos
-* Integração com APIs REST e consumo eficiente no Next.js
+Durante o desenvolvimento deste projeto, aprofundei meu entendimento sobre:
 
----
+* A diferença prática entre **Server e Client Components**;
+* Como **gerenciar o estado pela URL** de forma eficiente;
+* **Paginação e ordenação** baseadas em API;
+* **Boas práticas de integração** entre front-end e back-end em aplicações Next.js.
 
-Quer que eu adapte esse modelo com **os detalhes específicos do seu código** (ex: se usou React Query, ShadCN, Tailwind, etc.) para deixar pronto para seu portfólio?
+O resultado é uma aplicação funcional, rápida e escalável — demonstrando domínio dos fundamentos de **React**, **Next.js** e **consumo de APIs modernas**.
+
+
